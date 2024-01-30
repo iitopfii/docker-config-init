@@ -1,6 +1,6 @@
 ### Command Docker
 
-Docker Mount Volumes
+Docker run 
 ```sh
 docker run --name [name_container] -v $(pwd)/[path]:[path_container] -p [export]:[inport] -d [images]
 ```
