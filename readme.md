@@ -74,7 +74,7 @@ docker save -o api-service.tar api-service:latest
 You will get the file .tar and copy file to server
 extract .tar file for use.
 ```sh
-docker load -i busybox.tar 
+docker load -i api-service.tar 
 -- or
 docker load -i <path file image>
 ```
