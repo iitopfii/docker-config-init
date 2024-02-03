@@ -63,7 +63,7 @@ docker save [OPTIONS] IMAGE [IMAGE...]
 Ex export images file name api-service
 
 ```sh
-docker save api-service:latest > api-service.tar 
+docker save api-service:latest -o api-service.tar 
 -- or
 docker save --output api-service.tar api-service:latest 
 -- or
